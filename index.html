@@ -7,9 +7,39 @@
   <link rel="stylesheet" href="css/styles.css">
   <script src="js/jquery-3.5.1.js"></script>
   <script src="js/scripts.js"></script>
-  <title>Document</title>
+  <title>Stress Test</title>
 </head>
 <body>
-  can you see this?
+  <div class="container">
+    <div class="jumbotron">
+      <h2>Test Your Stress :( :)</h2>
+    </div>
+    <form id="stress-test">
+        <div class="form-group">
+          <p>In the past week, I have epxerienced the following symptoms:</p>
+          <input type="checkbox" name="stress-symptoms" value="Shallow breathing">Shallow breathing<br>
+          <input type="checkbox" name="stress-symptoms" value="Impending sense of doom">Impending sense of doom<br>
+          <input type="checkbox" name="stress-symptoms" value="Inabiility to form coherent sentences">Inabiility to form coherent sentences<br>
+          <input type="checkbox" name="stress-symptoms" value="Finding yourself in an unfamiliar place without any idea how you got there">Finding yourself in an unfamiliar place without any idea how you got there<br>
+          <input type="checkbox" name="stress-symptoms" value="Itchy eyeballs">Itchy eyeballs<br>
+          <input type="checkbox" name="stress-symptoms" value="Walking the dog at 3am, but you don't have a dog">Walking the dog at 3am, but you don't have a dog<br>
+          <input type="checkbox" name="stress-symptoms" value="Sweating profusely">Sweating profusely<br>
+          <input type="checkbox" name="stress-symptoms" value="Buying things compulsively on the internet">Buying things compulsively on the internet<br>
+        </div>
+        <button type="submit">Submit Survey</button>
+    </form>
+    <span id="responses">
+      <p><b>You dispaly the following symptoms of stress:</b></p>
+    </span>
+    <div class="Resource1">
+      <p>Based on the small number of symtpoms you display, please refer to the following resource for help relieivng your stress: <a href="https://www.youtube.com/watch?v=WIM11QiD_Bc">Supportive friend peptalk</a></p>
+    </div>
+    <div class="Resource2">
+      <p>Based on the moderate number of symtpoms you display, please refer to the following resource for help relieivng your stress: <a href="https://www.youtube.com/watch?v=kDolQlZWSmw">Cat video</a></p>
+    </div>
+    <div class="Resource3">
+      <p>Based on the concerning number of symtpoms you display, please refer to the following resource for help relieivng your stress: <a href="https://www.youtube.com/watch?v=wHyftaRfwIM">Eating a whopper</a></p>
+    </div>
+  </div>
 </body>
 </html>
