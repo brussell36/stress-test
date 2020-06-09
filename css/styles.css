@@ -1,17 +1,25 @@
 #responses {
   display: none;
+  font-size: 16pt;
+}
+
+#stress-test {
+  font-size: 16pt;
 }
 
 .Resource1 {
   display: none;
+  font-size: 16pt;
 }
 
 .Resource2 {
   display: none;
+  font-size: 16pt;
 }
 
 .Resource3 {
   display: none;
+  font-size: 16pt;
 }
 
 .container {
@@ -21,6 +29,7 @@
 
 .jumbotron {
   background-color: #726a95;
+  text-align: center;
 }
 
 body {
@@ -28,6 +37,16 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-button {
+.btn {
   margin: 2%;
+}
+
+h2 {
+  font-size: 5em;
+  font-weight: 700;
+  text-align: center;
+}
+
+img {
+  border-radius: 2%;
 }
